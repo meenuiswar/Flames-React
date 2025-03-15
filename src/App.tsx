@@ -6,9 +6,6 @@ const App = () => {
   const [name2, setName2] = useState("");
   const [flames, setFlames] = useState("");
 
-  const [name1Withstrikes, setName1Withstrikes] = useState("");
-  const [name2Withstrikes, setName2Withstrikes] = useState("");
-
   function getResultText(ch: string) {
     switch (ch) {
       case "f":
@@ -53,8 +50,7 @@ const App = () => {
         }
       }
     }
-    setName1Withstrikes(tempName1);
-    setName2Withstrikes(tempName2);
+ 
     const n1 = tempName1.split("#").join("");
     const n2 = tempName2.split("#").join("");
     let name = n1 + n2;
@@ -121,8 +117,7 @@ const App = () => {
               setName1("");
               setName2("");
               setFlames("");
-              setName1Withstrikes("");
-              setName2Withstrikes("");
+     
             }}
             disabled={name1 === "" && name2 === "" && flames === ""}
           >
