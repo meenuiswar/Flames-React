@@ -2,7 +2,7 @@
 
 A fun React-based web app that helps you find the relationship compatibility between two names using the classic FLAMES game! 💖🔥
 
-# Features
+## Features
 ✅ Simple and interactive UI
 
 ✅ Built with React + Vite for fast performance
@@ -10,6 +10,6 @@ A fun React-based web app that helps you find the relationship compatibility bet
 ✅ Mobile-friendly and responsive design using tailwind css
 
 
-# Live demo
+## Live demo
 **[Try the Flames-React App](https://meenuiswar.github.io/Flames-React/)** 
 
